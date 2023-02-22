@@ -1,0 +1,51 @@
+date,Kelembaban,Suhu,class,label
+1,18,11.2,0,Selada
+2,19,12.5,0,Selada
+3,20,13.6,0,Selada
+4,21,14.8,0,Selada
+5,22,19.6,0,Selada
+6,23,15.3,0,Selada
+7,24,16.2,0,Selada
+8,25,17.5,0,Selada
+9,26,18.6,0,Selada
+10,27,16.7,0,Selada
+11,13,23.5,1,kembang kol
+12,14,23.1,1,kembang kol
+13,12,30.2,1,kembang kol
+14,11,33.2,1,kembang kol
+15,14,29.2,1,kembang kol
+16,13,24.5,1,kembang kol
+17,10,23.1,1,kembang kol
+18,12,23.4,1,kembang kol
+19,11,20.2,1,kembang kol
+20,13,20.1,1,kembang kol
+21,39,26.18,2,bawang merah
+22,30,30.1,2,bawang merah
+23,31,31.2,2,bawang merah
+24,32,32.1,2,bawang merah
+25,33,33.1,2,bawang merah
+26,34,34.1,2,bawang merah
+27,35,36.1,2,bawang merah
+28,36,37.1,2,bawang merah
+29,37,38.1,2,bawang merah
+30,38,39.1,2,bawang merah
+31,40,40.1,3,Kentang
+32,41,41.1,3,Kentang
+33,42,42.1,3,Kentang
+34,49,43.2,3,Kentang
+35,43,44.5,3,Kentang
+36,44,45.6,3,Kentang
+37,46,46.1,3,Kentang
+38,45,47.2,3,Kentang
+39,47,48.3,3,Kentang
+40,48,49.9,3,Kentang
+41,50,50.1,4,Cabe
+42,51,51.3,4,Cabe
+43,52,52.8,4,Cabe
+44,53,53.6,4,Cabe
+45,54,54.7,4,Cabe
+46,55,55.3,4,Cabe
+47,56,56.1,4,Cabe
+48,57,57.2,4,Cabe
+49,58,58.3,4,Cabe
+50,59,59.3,4,Cabe
