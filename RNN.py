@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential, load_model
 import pyrebase
@@ -18,14 +18,14 @@ print("KLASIFIKASI TANAMAN MENGGUNAKAN RNN")
 print("===================================")
 print("Konfigurasi firebase")
 config = {
-    'apiKey': "5FFgTX0nW9Ix0QHtbBVqAZtzpgIeUufuVt1rSCN0",
-    'authDomain': "unsurtanah-7f351.firebaseapp.com",
-    'databaseURL': "https://unsurtanah-7f351-default-rtdb.firebaseio.com/",
+    'apiKey': "------------",
+    'authDomain': "-------",
+    'databaseURL': "--------",
     'projectId': "unsurtanah-7f351",
     'storageBucket': "unsurtanah-7f351.appspot.com",
-    'messagingSenderId': "926896750167",
-    'appId': "1:926896750167:web:ee89952a489def4b4fed12",
-    'measurementId': "G-SVBSQQJC5D"
+    'messagingSenderId': "------",
+    'appId': "-------",
+    'measurementId': "-------"
 }
 classes = ["Kentang","Cabe","Selada","Bawang Merah","Kembang Kol"]
 num_input = 6
@@ -211,7 +211,7 @@ def stream_handler(data):
     print("PH : " + str(PH))
     print("Suhu : " + str(Suhu))
     #['N','P','K','Kelembaban','Suhu','pH','class']
-    prediction([Nitrogen,Phosphorus,Potassium,Kelembaban,Suhu,PH])    #hapus Nitrogen,Phosphorus,Potassium,
+    prediction([Nitrogen,Phosphorus,Potassium,Kelembaban,Suhu,PH])
 
 firebase = pyrebase.initialize_app(config)
 db = firebase.database()
